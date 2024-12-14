@@ -18,5 +18,5 @@ I begin by reviewing the file while examining the logs.
 Considering the hints provided, I assumed it might be connected to the fork() function.
 
 ![ScreenShot of Ghidra](https://imgur.com/w7ZKpHk.png)  
-Line 60-62: The output string of the hint
+Line 60-62: The output string of the hint  
 Line 64-79: Seems like to get the flag, must past some conditions(Line 65 & 67)
