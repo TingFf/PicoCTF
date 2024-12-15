@@ -29,10 +29,10 @@ For this challenge, it is similar to WinAntiDbg0x100, so I chose not to document
 9. After passing the checks, go back to logs and the flag should be displayed.
 
 ## Summary
-10. In this challenge, know which line to set a break point.
-11. Value in the registers must be modify to past the checks and get the flag.
-12. Ensure x32dbg is run as admin.
-13. Focus on the last 4 values of the memory addresses.
-14. By using function call tree (under windows tab), to have a better understand of the code hierachy
+1. In this challenge, know which line to set a break point.
+2. Value in the registers must be modify to past the checks and get the flag.
+3. Ensure x32dbg is run as admin.
+4. Focus on the last 4 values of the memory addresses.
+5. By using function call tree (under windows tab), to have a better understand of the code hierachy
 
 
