@@ -1,7 +1,6 @@
 ## Comment
 1. For this challenge, I had to look at the writeup to get the flag.  
 2. The link : https://www.youtube.com/watch?v=AKYwzmRcLtw&t=92s  
-3. Unable to analyse the rest of the code.  
 
 ## Challenge Overview
 **Difficulty:** Medium  
