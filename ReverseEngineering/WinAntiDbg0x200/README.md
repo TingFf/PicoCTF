@@ -28,7 +28,7 @@ For this challenge, it is similar to WinAntiDbg0x100, so I chose not to document
 ![ScreenShot of x32dbg](https://imgur.com/wmCPIXR.png)  
 9. After passing the checks, go back to logs and the flag should be displayed.
 
-## Summary
+## Stuff Learned  
 1. In this challenge, know which line to set a break point.
 2. Value in the registers must be modify to past the checks and get the flag.
 3. Ensure x32dbg is run as admin.
