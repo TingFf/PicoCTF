@@ -11,7 +11,7 @@ For this challenge, it is similar to WinAntiDbg0x100, so I chose not to document
 ![ScreenShot of Ghidra](https://imgur.com/pA0uWMR.png)  
 2. Since its EAX,...,etc, the exe uses 32 bit hence I use x32dbg.  
 
-![ScreenShot of Ghidra](https://imgur.com/q5YqPxQ.png)  
+![ScreenShot of x32dbg](https://imgur.com/q5YqPxQ.png)  
 3. I begin by reviewing the file while examining the logs.
 
 ![ScreenShot of x32dbg](https://imgur.com/KgNm3a7.png)  
@@ -25,7 +25,7 @@ For this challenge, it is similar to WinAntiDbg0x100, so I chose not to document
 ![ScreenShot of Ghidra](https://imgur.com/LPVZvg9.png)  
 8. At memory address ...1824 & ...182E, make sure the EDX and EAX equals 0.
 
-![ScreenShot of Ghidra](https://imgur.com/wmCPIXR.png)  
+![ScreenShot of x32dbg](https://imgur.com/wmCPIXR.png)  
 9. After passing the checks, go back to logs and the flag should be displayed.
 
 ## Summary
