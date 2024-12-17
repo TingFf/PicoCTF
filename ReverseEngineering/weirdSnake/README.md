@@ -13,4 +13,4 @@ NA
 ## Stuff Learned
 1. How to disassemble python bytecode and reversing it.
 2. The listcomp object will be at the bottem of the bytecode
-3. >> : Destination location after a jmp instructions somewhere which likely represents some kind of loo
+3. >> : Destination location after a jmp instructions somewhere which likely represents some kind of loop
