@@ -11,4 +11,4 @@
 ## WriteUp
 NA
 ## Stuff Learned
-1. How to dissasemble python bytecode and reversing it
+1. How to disassemble python bytecode and reversing it.
