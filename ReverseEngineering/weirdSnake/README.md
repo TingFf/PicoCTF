@@ -1,5 +1,5 @@
 ## Comment
-1. This is my first encounter with Python bytecode, so I need to learn and understand about it.  
+1. This is my first encounter with Python bytecode, so I went to learn and understand about it.  
 2. No writeup for this challenge.
 
 ## Challenge Overview
