@@ -1,4 +1,4 @@
-<img width="369" alt="image" src="https://github.com/user-attachments/assets/8ebd65df-d321-4a4f-970c-15081bd6f1d3" />## Comment
+## Comment
 1. Pretty straight forward challenge.
 2. Title provides some hints
 
