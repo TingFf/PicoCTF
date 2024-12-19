@@ -25,11 +25,12 @@ Upx, CyberChef
 6. Continued to triage.  
 
 ![ScreenShot of PEiD](https://imgur.com/PRgPRBL.png)  
-7. Seems like the flag has been found but is encrypted.
-8. Looks like Hex.
+7. Seems like the flag has been found but is encrypted.  
+8. Looks like Hex.  
 
 ![ScreenShot of PEiD](https://imgur.com/wFZj61O.png)  
-9. Flag found
+9. Flag found  
+
 ## Stuff Learned  
 1. Always make sure to change file packed.
 2. Static analysis is useful.
