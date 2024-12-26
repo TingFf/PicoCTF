@@ -24,5 +24,6 @@
 ## Stuff Learned  
 1. Examples of deconstructor in a decompiled code.
 2. Adding breakpoints in gdb
-3. The memory in ghidra and gdb is a bit different hence need to pad with the same number while following the last three digits. 
-4. Due to memory safety, C++ automatically manages memory for std::string objects, so explicit destructor calls from the decompiled code are unnecessary.
+3. The memory in ghidra and gdb is a bit different hence need to pad with the same number while following the last three digits.
+4. std::string = Constructor
+5. Due to memory safety, C++ automatically manages memory for std::string objects, so explicit destructor calls from the decompiled code are unnecessary.
