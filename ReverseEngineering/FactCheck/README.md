@@ -1,5 +1,5 @@
 ## Comment  
-1.  The type of challenge that relates to getting the flag before its gets erase.  
+1.  Type of challenge that relates to getting the flag before its gets erase.  
 2.  Since the challenge is quite straightforward, I have only document the part when I debug using gdb. In addition, analysing the decompiled code documented as I find it useful.
 
 ## Challenge Overview  
