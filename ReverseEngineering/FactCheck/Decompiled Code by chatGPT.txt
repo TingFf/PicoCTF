@@ -1,0 +1,50 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+int main() {
+    std::string local_248 = "picoCTF{wELF_d0N3_mate_";
+    std::string local_228 = "string_part_1"; // Placeholder for DAT_0010201d
+    std::string local_208 = "string_part_2"; // Placeholder for DAT_0010201f
+    std::string local_1e8 = "string_part_3"; // Placeholder for DAT_00102021
+    std::string local_1c8 = "string_part_4"; // Placeholder for DAT_00102023
+    std::string local_1a8 = "string_part_5"; // Placeholder for DAT_00102025
+    std::string local_188 = "string_part_6"; // Placeholder for DAT_00102027
+    std::string local_168 = "string_part_7"; // Placeholder for DAT_00102027
+    std::string local_148 = "string_part_8"; // Placeholder for DAT_00102029
+    std::string local_128 = "string_part_9"; // Placeholder for DAT_00102029
+    std::string local_108 = "string_part_10"; // Placeholder for DAT_00102021
+    std::string local_e8 = "string_part_11"; // Placeholder for DAT_0010202b
+    std::string local_c8 = "string_part_12"; // Placeholder for DAT_00102029
+    std::string local_a8 = "string_part_13"; // Placeholder for DAT_0010202d
+    std::string local_88 = "string_part_14"; // Placeholder for DAT_0010202f
+    std::string local_68 = "string_part_15"; // Placeholder for DAT_00102031
+    std::string local_48 = "string_part_16"; // Placeholder for DAT_00102033
+
+    // Logic to construct the flag
+    if (local_208[0] < 'B') {
+        local_248 += local_c8;
+    }
+    if (local_a8[0] != 'A') {
+        local_248 += local_68;
+    }
+    if (local_1c8[0] - local_148[0] == 3) {
+        local_248 += local_1c8;
+    }
+    local_248 += local_1e8;
+    local_248 += local_188;
+
+    if (local_168[0] == 'G') {
+        local_248 += local_168;
+    }
+
+    local_248 += local_1a8;
+    local_248 += local_88;
+    local_248 += local_228;
+    local_248 += local_128;
+    local_248 += "}";
+
+    std::cout << "Flag: " << local_248 << std::endl;
+
+    return 0;
+}
