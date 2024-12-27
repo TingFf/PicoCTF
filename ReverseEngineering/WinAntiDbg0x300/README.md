@@ -1,6 +1,5 @@
 ## Comment
-1. For this challenge, I had to look at the writeup to get the flag.  
-2. The link : https://www.youtube.com/watch?v=AKYwzmRcLtw&t=92s  
+1. For this challenge, I had to look at the writeup to get the flag.(https://www.youtube.com/watch?v=AKYwzmRcLtw&t=92s)  
 
 ## Challenge Overview
 **Difficulty:** Medium  
