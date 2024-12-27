@@ -1,6 +1,6 @@
 ## Comment  
 1. Had to look at writeup for this wan.  
-(Writeup Link: https://www.youtube.com/watch?v=_ehvUhWoNYM)
+(https://www.youtube.com/watch?v=_ehvUhWoNYM)  
 2. First RE that requires python script
 
 ## Challenge Overview  
