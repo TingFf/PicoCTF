@@ -12,12 +12,12 @@
 ## Writeup  
 
 ![Screenshot](https://imgur.com/Kbo4Gyc.png)  
-1. The main objective to let the get_func to return the string "win" so that the eval("win"+"()") will call the win function which will print the flag.  
+1. The main objective to let the get_func to return the string "win" so that the eval("win"+"()") will call the win function to print the flag.  
 ![Screenshot](https://imgur.com/HquRYwx.png)  
 ![Screenshot](https://imgur.com/bW8ji46.png)  
 2. I used PDB to debug the code to understand the data and variables.  
-3. Basically the the get_func will loop through the func_table and depending on the starting index, it will read until a space and return the string.  
-4. Hence, what is require is to change the table to win and plus a space.  
+3. Basically the get_func will loop through the func_table and depending on the starting index, it will read until a space and return the string.  
+4. Hence, what is require is to change the table to "win" and plus a space.  
 ![Screenshot](https://imgur.com/utoIEpM.png)  
 5. To change the table, we have to utilize one of the write_variable function to change the global variable func_table.  
 6. But take note there is a condition camparing the length of the table which means the length of the original string must be equal to the modified string.  
