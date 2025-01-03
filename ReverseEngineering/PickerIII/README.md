@@ -10,6 +10,7 @@
 **CyberChef, Pdb**  
 
 ## Writeup  
+
 ![Screenshot](https://imgur.com/Kbo4Gyc.png)  
 1. The main objective to let the get_func to return the string "win" so that the eval("win"+"()") will call the win function which will print the flag.  
 ![Screenshot](https://imgur.com/HquRYwx.png)  
