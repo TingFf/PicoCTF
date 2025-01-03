@@ -11,7 +11,7 @@
 
 ## Writeup  
 ![Screenshot](https://imgur.com/Kbo4Gyc.png)  
-1. The main objective to let the get_func to return the string "win" so that the eval("win"+"()") will call the win function which will print the flag.    
+1. The main objective to let the get_func to return the string "win" so that the eval("win"+"()") will call the win function which will print the flag.  
 ![Screenshot](https://imgur.com/HquRYwx.png)  
 ![Screenshot](https://imgur.com/bW8ji46.png)  
 2. I used PDB to debug the code to understand the data and variables.  
