@@ -1,4 +1,3 @@
-:---
 ## Comment  
 1. Had fun doing this challenge.    
 2. Wanted to give up and look at writeup but didnt so i am proud.
