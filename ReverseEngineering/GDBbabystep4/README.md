@@ -15,8 +15,8 @@ NIL
 
 ## Stuff Learned  
 1. How to disas into other function.  
-2. imul instruction represent signed multiplication.
-**Example of signed multiplication with two operands:**
-mov eax, 5      ; Load 5 into eax
-mov ebx, -3     ; Load -3 into ebx
-imul eax, ebx   ; eax = eax * ebx, so eax = 5 * -3 = -15
+2. imul instruction represent signed multiplication.  
+**Example of signed multiplication with two operands:**  
+mov eax, 5      ; Load 5 into eax  
+mov ebx, -3     ; Load -3 into ebx  
+imul eax, ebx   ; eax = eax * ebx, so eax = 5 * -3 = -15  
