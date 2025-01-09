@@ -14,6 +14,8 @@ NIL
 2. "x/s $rbp-0x30" to print the string out from the offset of the base pointer.  
 
 ## Stuff Learned  
-1. x/s to print the entire string.   
+1. x: Examine memory.  
+2. /s: Interpret and display memory as a null-terminated string.  
+3. $rbp-0x30: Starting memory address to examine.  
 
 
