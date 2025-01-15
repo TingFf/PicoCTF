@@ -13,7 +13,7 @@
 **First way:**  
 1. Very straight forward the flag is right there when open in ghidra.  
 
-![ScreenShot](https://imgur.com/iyxgQdk.png)  
+![ScreenShot](https://imgur.com/4t38OfW.png)  
 **Second way:**  
 1. We can see the string of 48 char password is stored in RBP.  
 2. Looking at the address after the line when the password is stored in memory (0x0010123b).  
