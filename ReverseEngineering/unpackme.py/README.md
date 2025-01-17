@@ -7,7 +7,7 @@
 1. Modify the python code to get the flag. 
 2. Decrypt the payload using cyberchef.  
 ## Tools Used  
-CyberChef  
+**CyberChef**    
 
 ## Writeup  
 ![ScreenShot](https://imgur.com/pgPfgyb.png)  
