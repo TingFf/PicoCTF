@@ -14,7 +14,7 @@ NIL
 
     
 ## Stuff Learned  
-1. Decode and Decryption Difference.  
+1. Difference between Decode and Decryption.  
     **Decode:**  
         -Applied on data to make it fit a certain format or reduce its size.  
         -Does not involve security or keys.  
