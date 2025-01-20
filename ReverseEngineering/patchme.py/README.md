@@ -16,11 +16,11 @@ NIL
 ## Stuff Learned  
 1. Decode and Decryption Difference.  
     **Decode:**  
-        Applied on data to make it fit a certain format or reduce its size.  
-        Does not involve security or keys.  
+        -Applied on data to make it fit a certain format or reduce its size.  
+        -Does not involve security or keys.  
     **Decryption:**  
-        Converts encrypted (ciphertext) data back into its original form (plaintext).  
-        Requires knowledge of the encryption algorithm and the correct key.  
-        Protect data by making it unreadable to unauthorized users.  
+        -Converts encrypted (ciphertext) data back into its original form (plaintext).  
+        -Requires knowledge of the encryption algorithm and the correct key.  
+        -Protect data by making it unreadable to unauthorized users.  
 
 
