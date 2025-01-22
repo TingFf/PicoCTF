@@ -9,9 +9,11 @@ NIL
 
 ## Writeup  
 ![ScreenShot](https://imgur.com/ihMuqJH.png)  
-1. For this challange, I did some script analysis and convert the string indexing into the string.  
+1. For this challange, I did some script analysis and convert the string indexing into the string.
+ 
 ![ScreenShot](https://imgur.com/agr3dYm.png)  
 2. After changing into strings, we can see that the password is "happychance".  
+
 ![ScreenShot](https://imgur.com/Fxwpsir.png)  
 3. Enter the password to get the flag.  
 
