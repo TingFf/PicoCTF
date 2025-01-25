@@ -1,0 +1,74 @@
+	.arch armv8-a
+	.file	"chall_1.c"
+	.text
+	.align	2
+	.global	func
+	.type	func, %function
+func:                           #4. Must make this function return 0
+    -INITIAL SETUP-                        
+	sub	sp, sp, #32             1. Decreases the stack pointer by 32 bytes, creating space on the stack for temporary variables.
+    -Storing Values in Memory-
+	str	w0, [sp, 12]            1. Stores the value of w0 (passed as the first argument to the function) at the stack offset sp + 12.
+	mov	w0, 79                  2. Moves the value 79 into w0
+	str	w0, [sp, 16]            3. Stores the value 79 at the stack offset sp + 16
+	mov	w0, 7                   4. Moves the value 7 into w0
+	str	w0, [sp, 20]            5. Stores the value 7 at the stack offset sp + 20
+	mov	w0, 3                   6. Moves the value 3 into w0
+	str	w0, [sp, 24]            7. Stores the value 3 at the stack offset sp + 24
+    -Arithmetic Operations-
+	ldr	w0, [sp, 20]            1. Load 7 into w0
+	ldr	w1, [sp, 16]            2. Load 79 into w1
+	lsl	w0, w1, w0              3. Logical Left Shift 79 << 7 = 10112 and store result into w0
+	str	w0, [sp, 28]            4. Store result at the stack offset sp + 28
+	ldr	w1, [sp, 28]            5. Load 10112 into w1
+	ldr	w0, [sp, 24]            6. Load 3 into w0
+	sdiv	w0, w1, w0          7. Divide 10112/3 and store result into w0
+	str	w0, [sp, 28]            8. Store result at the stack offset sp + 28
+	ldr	w1, [sp, 28]            9. Load 3370 into w1
+	ldr	w0, [sp, 12]            10. Load the argument for this function into w0
+	sub	w0, w1, w0              11. Minus 3370 - argument and store into w0                 #5. Result must be equals to 0
+	str	w0, [sp, 28]            12. Store result at the stack offset sp + 28
+	ldr	w0, [sp, 28]            13. Load the result
+	add	sp, sp, 32              14. The stack pointer is restored, and the temporary memory is discarded. The function returns, with the result in w0.
+	ret
+	.size	func, .-func
+	.section	.rodata
+	.align	3
+.LC0:
+	.string	"You win!"          #1. Must reach this function
+	.align	3
+.LC1:
+	.string	"You Lose :("
+	.text
+	.align	2
+	.global	main
+	.type	main, %function
+main:
+	stp	x29, x30, [sp, -48]!  
+	add	x29, sp, 0
+	str	w0, [x29, 28]
+	str	x1, [x29, 16]
+	ldr	x0, [x29, 16]
+	add	x0, x0, 8
+	ldr	x0, [x0]
+	bl	atoi
+	str	w0, [x29, 44]
+	ldr	w0, [x29, 44]
+	bl	func                    #2. Return data is stored in w0
+	cmp	w0, 0                   #3. If no equal, go to L4 which is not correct hence must be 0
+	bne	.L4
+	adrp	x0, .LC0
+	add	x0, x0, :lo12:.LC0
+	bl	puts
+	b	.L6
+.L4:   
+	adrp	x0, .LC1
+	add	x0, x0, :lo12:.LC1
+	bl	puts
+.L6:
+	nop
+	ldp	x29, x30, [sp], 48
+	ret
+	.size	main, .-main
+	.ident	"GCC: (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0"
+	.section	.note.GNU-stack,"",@progbits
