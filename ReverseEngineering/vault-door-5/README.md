@@ -10,7 +10,7 @@ NA
 ## Writeup  
 ![ScreenShot](https://imgur.com/btTQQNJ.png)  
 ![ScreenShot](https://imgur.com/UDnQcqb.png)  
-1. Copy and paste the entire base64 encoding string and just into cyberchef.  
+1. Copy and paste the entire base64 encoding string into cyberchef.  
 2. From base64 encoded string -> base64 decode -> url encoded string -> url decode string.  
 
 ## Stuff Learned  
