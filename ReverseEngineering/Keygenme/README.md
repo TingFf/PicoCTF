@@ -24,7 +24,7 @@
 7. Setting a break point.  
 
 ![ScreenShot](https://imgur.com/C2fhrd3.png)  
-8. Any input should works fine as long as its length 36.  
+8. Any input should work fine as long as its length 36.  
 
 ![ScreenShot](https://imgur.com/A6QU1L7.png)  
 9. The flag is stored at $rbp-0x30.  
