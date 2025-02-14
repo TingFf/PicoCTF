@@ -118,5 +118,5 @@ print(result)
         .global func2
         .type   func2, %function
 ```
-
+2. ret will return back to caller.  
 
