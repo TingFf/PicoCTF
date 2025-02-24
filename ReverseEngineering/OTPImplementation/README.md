@@ -116,5 +116,8 @@ picoCTF{cust0m_jumbl3s_4r3nt_4_g0Od_1d3A_15e89ca4}
 
 ## Stuff Learned  
 1. Using gdb in a python script to brute force the challenge.  
-
+2. To run the script:
+```
+gdb -q -x Script.py
+```
 
