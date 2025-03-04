@@ -79,4 +79,4 @@ Logcat:
 1. To download the apk just drag and drop into the emulator.  
 2. Log.i(...) logs the output in logcat.  
 3. Native method is a the function that is declared in Java but implemented elsewhere in a compiled native library hence its harder to analyze cause is inside a complied .so file.
-   
+4. Jadx can decompile apk file.  
