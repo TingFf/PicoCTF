@@ -51,6 +51,6 @@ Flag:
 ![ScreenShot](https://imgur.com/NF0kISC.png)  
 
 ## Stuff Learned  
-1. Jadx can decompile apk file.  
+NA
 
 
