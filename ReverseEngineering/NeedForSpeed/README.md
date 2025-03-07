@@ -222,6 +222,6 @@ PICOCTF{Good job keeping bus #24c43740 speeding along!}
 
 ## Stuff Learned  
 1. Using ```return```,```jump```,```finish``` to skip function in gdb.  
-2. When a signal alarm is set,handler will handle it and can be ignore.  
+2. When a signal alarm is set, handler will handle it and can be ignore.  
 
 
