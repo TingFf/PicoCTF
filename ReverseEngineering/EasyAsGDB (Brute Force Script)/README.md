@@ -191,4 +191,8 @@ with open("input.txt", "w") as f:
       f.write(guess+i+'1'*(29-j))
 gdb.execute("run < input.txt")
 ```
+3. To run the script:
+```
+gdb -q -x Script.py
+```
 
