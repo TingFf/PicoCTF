@@ -168,8 +168,8 @@ Resurrect the hidden, it's forensics we choose.
 Disk dumps and packet dumps, follow the trail,
 Buried deep in the noise, but we will prevail.
 ```
-3. Looking at the code, the return is the one that point which set of lyrics the song will be so I tried enter "Return 1"
-4. But RETURN [0-9] != CROWD RETURN 1.
+3. Looking at the code, the return is the one that point which set of lyrics the song will be so I tried enter "Return 0"
+4. But RETURN [0-9] != CROWD RETURN 0.
 5. So we have to make the RETURN 1 to the next line from the code POV.
 6. Hence the only way is to exploit how the code split the lyrics.
 7. Since it split base on ;.
