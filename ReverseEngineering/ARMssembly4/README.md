@@ -1,5 +1,5 @@
 ## Comment  
-1. Manually follow the logic of the assembly code before I realise it can be assebling to object file and compile into exe.
+1. Manually follow the logic of the assembly code before I realise it can be assemble to object file and compile into exe.
 2. Pretty straight forward but hope I correct with the logic.  
 
 ## Challenge Overview  
