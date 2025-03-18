@@ -3,7 +3,7 @@
 2. Straight forward and simple.   
 
 ## Challenge Overview  
-**Difficulty:** Medium  
+**Difficulty:** Hard  
 **Description:** Understand assembly code.  
 ## Tools Used  
 NIL  
