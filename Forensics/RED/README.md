@@ -47,7 +47,7 @@ b4,b,lsb,xy         .. file: 0421 Alliant compact executable not stripped
 ```
 5. There seems to be a base64 encoded string.  
 6. Copy it to cyberchef.  
-Flag:
+7. Flag:
 ```
 picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
 ```
