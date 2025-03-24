@@ -13,7 +13,7 @@
 ![ScreenShot](https://imgur.com/MZ0InGy.png)  
 
 2. The app doesn't seem to do much except a input text box, a button and a message.
-3. Then to decompile and analyse the apk file. I use jadx to do the job.
+3. Then to decompile and analyse the apk file. I use jadx to do the job.  
 MainActivity:
 ```
 package com.hellocmu.picoctf;
