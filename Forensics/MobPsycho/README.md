@@ -1,5 +1,5 @@
 ## Comment  
-1. Tried to use the stuff I learn from the andriod series challenges.  
+1. Tried to use the stuff I learn from the android series challenges.  
 2. In the end, just need to search for the flag among all the files.
 
 ## Challenge Overview  
