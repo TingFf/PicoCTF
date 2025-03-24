@@ -1,4 +1,4 @@
-<img width="434" alt="image" src="https://github.com/user-attachments/assets/cc02fe67-0ea1-4129-b217-9d162632da11" />## Comment  
+## Comment  
 1. Tried to use the stuff I learn from the andriod series challenges.  
 2. In the end, just need to search for the flag among all the files.
 
