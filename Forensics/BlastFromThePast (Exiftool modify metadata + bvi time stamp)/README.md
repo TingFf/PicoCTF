@@ -15,9 +15,38 @@ Use this picture.
 **Exiftool, Bvi**
 
 ## Writeup  
-
+1. Image metadata:  
+![ScreenShot](https://imgur.com/dk31Lvs.png)  
+2. To modify the image metadata.  
+3. Using exiftool cmd line:  
+![ScreenShot](https://imgur.com/qeKaFFF.png)
+4. To view more information:
+```
+exiftool -v3 original.png
+```
+6. Only the samsung trailer timestamp needs a bit more than using cmdline.
+![ScreenShot](https://imgur.com/tiaiMco.png)
+7. As exiftool does not support as it a third party thing.  
+8. Hence have to modify the data using different method.  
+9. View the binary of the png file using bvi.
+![ScreenShot](https://imgur.com/E96Q5k3.png)
+10. Bvi cmd:
+```
+Shift G -> To the bottom
+:set memmov -> To enable editing
+i -> Insert
+x -> Delete
+esc -> Go the command mode
+r -> replace
+```
+11. Replace all the metadata to 0.
+12. Then send the modified png to the server and the flag will be displayed.  
+13. Flag:
+```
+picoCTF{71m3_7r4v311ng_p1c7ur3_a25174ab}
+```
 
 ## Stuff Learned  
-1. Argument is stored in w0.  
-
+1970:01:01 00:00:00.001+00:00 
+1. January 1, 1970, is known as the Unix Epoch. It is the reference point from which Unix time (also called POSIX time or Epoch time) is calculated.
 
