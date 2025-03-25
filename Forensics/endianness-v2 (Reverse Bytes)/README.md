@@ -127,6 +127,11 @@ picoCTF{cert!f1Ed_iNd!4n_s0rrY_3nDian_94cc03f3}
 ```
 
 ## Stuff Learned  
-
+1. Looking at the header might be useful sometimes.
+2. JPG header and trailer
+```
+JPG Header : FF D8 FF E0
+JPG Tailer: FF D9
+```
 
 
