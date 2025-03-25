@@ -120,7 +120,7 @@ reversedbytes.txt: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x
 ┌──(kali㉿kali)-[~/CTF_PlayGround/endianness-v2]
 └─$ eog reversedbytes.jpg
 ```
-![ScreenShot](https://imgur.com/q0gW8B2.png)
+![ScreenShot](https://imgur.com/q0gW8B2.png)  
 11. Flag:
 ```
 picoCTF{cert!f1Ed_iNd!4n_s0rrY_3nDian_94cc03f3}
