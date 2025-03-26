@@ -58,7 +58,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 flag.png
 ```
 7. Its another flag.  
-8. Open using eog.
+8. Open using ```eog flag.png```.    
 ![ScreenShot](https://imgur.com/qG70tID.png)
 9. Flag:
 ```
