@@ -1,6 +1,5 @@
 ## Comment  
 1. Simple SleuthKit Challenge.
-2. 
 
 ## Challenge Overview  
 **Difficulty:** Medium  
