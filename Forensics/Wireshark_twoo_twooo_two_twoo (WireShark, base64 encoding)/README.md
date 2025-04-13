@@ -33,7 +33,7 @@ Can you find the flag?
 ```
 10. Decode this cyberchef to get the flag.  
 ![ScreenShot](https://imgur.com/0Oopkum.png)  
-11. Flag.
+11. Flag:  
 `picoCTF{p4ck37_5h4rk_ceccaa7f}`
 
 ## Stuff Learned  
