@@ -16,7 +16,7 @@ Download the android apk here.
 ![ScreenShot](https://imgur.com/O6Ji8Yg.png)  
 2. These are all the files.  
 3. Hint 2: Assume we need to search for the flag among all the files.  
-4. /res:
+4. /res:  
 ![ScreenShot](https://imgur.com/IlT7KR9.png)  
 5. Using grep to search for keywords like ```picoCTF``` or ```flag```.  
 ![ScreenShot](https://imgur.com/pDP6CLw.png)  
