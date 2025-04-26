@@ -201,5 +201,8 @@ No errors detected in mystery.png (9 chunks, 96.3% compression).
 `-s` : offset  
 `-l` : Bytes length displayed  
 5. View the offset of each chunk in the entire file.  
-`binwalk -R "IDAT" mystery.png`  
+`binwalk -R "IDAT" mystery.png`
+6. IHDR must be the first chunk after the 8-byte PNG signature/header.  
+7. IDAT must appear after IHDR and contains the compressed image data. You can have multiple IDATs (they’re concatenated).  
+8. IEND must be the last chunk, and it's always empty (zero-length data).  
   
