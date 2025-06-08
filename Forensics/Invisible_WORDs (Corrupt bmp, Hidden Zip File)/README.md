@@ -72,7 +72,7 @@ https://www.file-recovery.com/bmp-signature-format.htm
 17. picoCTF{w0rd_d4wg_y0u_f0und_5h3113ys_m4573rp13c3_539ea4a8}  
 
 ## Stuff Learned  
-1. Zip and bmp file signature and header
-Zip file signature: https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html
-Bmp file header: https://stackoverflow.com/questions/33483708/understanding-bmp-file
+1. Zip and bmp file signature and header  
+Zip file signature: https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html  
+Bmp file header: https://stackoverflow.com/questions/33483708/understanding-bmp-file  
 
