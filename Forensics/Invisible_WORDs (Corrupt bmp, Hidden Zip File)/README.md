@@ -49,7 +49,7 @@ https://www.file-recovery.com/bmp-signature-format.htm
 00000090  03 04 C6 18  14 00 CE 3D   00 00 10 4A  08 00 6F 56                                                                                                                                                              .......=...J..oV
 ```
 8. But its seems the bytes are in the interval of every two bytes.  
-9. `50 4B` then two byts in between then `03 04`.  
+9. `50 4B` then two bytes in between then `03 04`.  
 10. After getting just the bytes that we wanted.  
 11. The header should consist of these bytes.  
 
