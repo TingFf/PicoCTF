@@ -2,7 +2,7 @@
 1. This challenges need to know the zip file signature.
 
 ## Challenge Overview  
-**Difficulty:** Hard
+**Difficulty:** Hard  
 **Description:**   
 Do you recognize this cyberpunk baddie? We don't either. AI art generators are all the rage nowadays, which makes it hard to get a reliable known cover image. But we know you'll figure it out. The suspect is believed to be trafficking in classics. That probably won't help crack the stego, but we hope it will give motivation to bring this criminal to justice!
 Download the image here
